@@ -1,0 +1,68 @@
+:root {
+  color-scheme: light dark;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  min-height: 100vh;
+
+  font-family: Consolas, monospace;
+  text-align: justify;
+}
+
+main {
+  max-width: 40rem;
+
+  padding: 4rem 2rem;
+}
+
+main,
+header,
+section,
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+section,
+div {
+  margin-top: 1rem;
+}
+
+ul.inline > li {
+  display: inline;
+}
+
+ul.inline > li:not(:last-of-type)::after {
+  display: inline;
+
+  content: ' | ';
+}
+
+a {
+  text-decoration: none;
+}
+
+.gap {
+  gap: 1rem;
+}
+
+.images {
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.images img {
+  width: 3rem;
+  height: 3rem;
+}

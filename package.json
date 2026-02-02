@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "clean": "rimraf node_modules",
+    "check": "biome check",
+    "check:write": "biome check --write",
+    "check:ci": "biome ci",
+    "start": "http-server -c-1"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.3.13",
+    "http-server": "^14.1.1",
+    "rimraf": "^6.1.2"
+  }
+}

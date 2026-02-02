@@ -1,0 +1,16 @@
+# Dependencies
+node_modules/
+
+# Output
+dist/
+.yarn.installed
+
+# IDE
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# OS
+.DS_Store
+Thumbs.db

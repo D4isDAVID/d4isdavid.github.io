@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /
+Allow: /$
+
+sitemap: https://d4vid.dev/sitemap.xml

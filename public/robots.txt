@@ -1,5 +1,10 @@
 User-agent: *
 Disallow: /
 Allow: /$
+Allow: /*.html$
+Allow: /*.css$
+Allow: /*.txt$
+Allow: /*.xml$
+Allow: /favicon/
 
-sitemap: https://d4vid.dev/sitemap.xml
+Sitemap: https://d4vid.dev/sitemap.xml

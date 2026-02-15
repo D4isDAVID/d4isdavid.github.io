@@ -15,7 +15,7 @@ body {
   min-height: 100vh;
 
   font-family: Consolas, monospace;
-  text-align: justify;
+  text-align: center;
 }
 
 main {
@@ -37,6 +37,10 @@ div {
 section,
 div {
   margin-top: 1rem;
+}
+
+li {
+  text-align: justify;
 }
 
 ul.inline > li {

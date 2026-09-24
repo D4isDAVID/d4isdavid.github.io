@@ -36,7 +36,7 @@
   "linter": {
     "enabled": true,
     "rules": {
-      "recommended": false,
+      "preset": "none",
       "a11y": {
         "noAccessKey": "error",
         "noAriaHiddenOnFocusable": "error",
